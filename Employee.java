@@ -1,12 +1,18 @@
 class Employee{
+private int EmpId;
+private String EmpName;
+private float EmpSalary;
+private Department EmpdName;
 
-
-
-void display(int EmpId,String EmpName,float EmpSalary,String EmpdName)
+public Employee(int EmpId,String EmpName,float EmpSalary,Department EmpdName)
 {
-System.out.println("Employee id is:"+EmpId);
-System.out.println("Employee name is:"+EmpName);
-System.out.println("Employee salary is:"+EmpSalary);
-System.out.println("Employee dept name is:"+EmpdName);
+this.EmpId=EmpId;
+this.EmpName=EmpName;
+this.EmpSalary=EmpSalary;
+this.Department EmpdName=Department EmpdName;
 }
+
+public String tostring()
+{
+return "Id: "+EmpId+"\n Name:"+EmpName+"\n salary:"+EmpSalary+"\n employe-department-name:"+EmpdName+.get DepId()+"\n DepName: "+
 }

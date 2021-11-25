@@ -1,9 +1,3 @@
-import java.util.*;
-class Department{
-void print(int DepId,String DepName,String DepHead)
-{
-System.out.println("Department id is:"+DepId);
-System.out.println("Department name is:"+DepName);
-System.out.println("Department head is:"+DepHead);
-}
-}
+create directory through:- command(mkdir dir name)
+for change directory:-command(cd dir name)
+change folder:-command(cd folder name)
