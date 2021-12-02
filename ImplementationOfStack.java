@@ -1,4 +1,4 @@
-package dataStructureExamples;
+
 public class ImplementationOfStack
 {
 Node head;
